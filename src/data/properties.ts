@@ -1,3 +1,10 @@
+import villaImage from '../assets/images/prop_1_villa_1793216238028.jpg';
+import penthouseImage from '../assets/images/prop_2_penthouse_1793216237206.jpg';
+import estateImage from '../assets/images/prop_3_estate_1793216237788.jpg';
+import loftImage from '../assets/images/prop_4_loft_1793216238092.jpg';
+import suburbanImage from '../assets/images/prop_5_suburban_1793216238166.jpg';
+import condoImage from '../assets/images/prop_6_condo_1793216238215.jpg';
+
 export interface Property {
   id: string;
   title: string;
@@ -22,7 +29,7 @@ export const properties: Property[] = [
     bathrooms: 3.5,
     area: '3,200 sqft',
     description: 'A stunning coastal villa with floor-to-ceiling windows and panoramic ocean views. Perfect for those who value privacy and modern architecture.',
-    imageUrl: '/src/assets/images/prop_1_villa_1793216238028.jpg',
+    imageUrl: villaImage,
   },
   {
     id: '2',
@@ -34,7 +41,7 @@ export const properties: Property[] = [
     bathrooms: 1,
     area: '850 sqft',
     description: 'High-rise living at its finest. This urban sanctuary features high ceilings, premium finishes, and easy access to the city hub.',
-    imageUrl: '/src/assets/images/prop_2_penthouse_1793216237206.jpg',
+    imageUrl: penthouseImage,
   },
   {
     id: '3',
@@ -46,7 +53,7 @@ export const properties: Property[] = [
     bathrooms: 4,
     area: '4,500 sqft',
     description: 'Spacious and serene estate surrounded by lush greenery. Ideal for families seeking a peaceful escape without sacrificing comfort.',
-    imageUrl: '/src/assets/images/prop_3_estate_1793216237788.jpg',
+    imageUrl: estateImage,
   },
   {
     id: '4',
@@ -58,7 +65,7 @@ export const properties: Property[] = [
     bathrooms: 2,
     area: '1,400 sqft',
     description: 'Spacious open-concept loft in the heart of the art district. Features exposed brick, industrial styling, and abundant natural light.',
-    imageUrl: '/src/assets/images/prop_4_loft_1793216238092.jpg',
+    imageUrl: loftImage,
   },
   {
     id: '5',
@@ -70,7 +77,7 @@ export const properties: Property[] = [
     bathrooms: 3,
     area: '2,800 sqft',
     description: 'A beautifully crafted suburban residence with an expansive backyard and top-tier amenities. Perfect for modern family life.',
-    imageUrl: '/src/assets/images/prop_5_suburban_1793216238166.jpg',
+    imageUrl: suburbanImage,
   },
   {
     id: '6',
@@ -82,7 +89,7 @@ export const properties: Property[] = [
     bathrooms: 2,
     area: '1,100 sqft',
     description: 'Thoughtfully designed boutique condo with bespoke interiors and proximity to premium shopping and dining.',
-    imageUrl: '/src/assets/images/prop_6_condo_1793216238215.jpg',
+    imageUrl: condoImage,
   },
 ];
 
