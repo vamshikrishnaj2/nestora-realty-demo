@@ -1,0 +1,6 @@
+{
+  "name": "Nestora Realty Demo",
+  "description": "A premium, fictional real-estate portfolio demonstration website.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
